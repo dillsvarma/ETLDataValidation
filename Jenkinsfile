@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Run Python Script') {
             steps {
-                bat 'python script.py'
+                bat 'python Comparetwofiles.py'
             }
         }
     }
