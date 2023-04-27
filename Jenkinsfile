@@ -1,4 +1,5 @@
 pipeline {
+    agent
     stages {
         stage('Run Python Script') {
             steps {
